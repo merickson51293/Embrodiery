@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lake Life</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <a href="index.html"><img src="304947778_1027209277_Lake Life Sample.jpg" alt="Logo">
+                </a>
+                <div id="title">
+                    <h1>Lake Life</h1>
+                    <h2>"Wear Your Lake"</h2>
+                </div>
+                <div id="top-right">
+                    <button id="login"><a href="login.html">Login</a></button>
+                </br>
+                    <button id="login"><a href="new_user.html">New User</a></button>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="home">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="about">
+                    <a href="about.html">About</a>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Products
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="order">
+                    <a href="order.html">Order</a>
+                </div>
+                <div class="referals">
+                    <a href="referals.html">Referals</a>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Contact
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <form action="action_page.php" method="post">
+                <div class="container">
+                    <label for="fname"><b>First Name</b></label>
+                  <input type="text" placeholder="Enter First Name" name="fname" required>
+
+                  <label for="lname"><b>Last Name</b></label>
+                  <input type="text" placeholder="Enter Last Name" name="lname" required>
+
+                  <label for="email"><b>Email Address</b></label>
+                  <input type="text" placeholder="Enter Email Address" name="email" required>
+
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+
+                  <label for="psw"><b>Confirm Password</b></label>
+                  <input type="password" placeholder="Confirm Password" name="psw" required>
+              
+                  <button type="submit">Sign Up</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
+              
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" class="loginpage"><a href="login.html">Login</a></button>
+                  <span class="psw"><a href="#">Forgot password?</a></span>
+                </div>
+              </form>
+            </div>
+        </body>
+    </html>
